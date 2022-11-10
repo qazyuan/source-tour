@@ -1,0 +1,15 @@
+{
+  "name": "@yuan/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types":"dist/index.d.ts",
+  "scripts": {
+    "build":"unbuild",
+    "stub":"unbuild --stub"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

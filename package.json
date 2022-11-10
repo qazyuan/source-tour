@@ -1,0 +1,27 @@
+{
+  "name": "source-tour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:utils": "pnpm run --filter @yuan/utils build",
+    "build:reactivity": "pnpm run --filter @yuan/reactivity build",
+    "build": "pnpm run  --filter=\"@yuan/*\"  build ",
+    "test": "vitest packages/",
+    "test:once": "vitest run packages/",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "unbuild": "^0.9.4",
+    "vitest": "^0.24.5"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.29.3",
+    "@vitest/coverage-c8": "^0.24.5",
+    "eslint": "^8.26.0"
+  }
+}
